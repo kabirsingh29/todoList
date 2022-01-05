@@ -5,13 +5,12 @@ import taskFormSubmit from './components/taskFormSubmit'
 
 
 function App() {
-  const [task, setTask] = useState([]);
+  const [task, setTask] = useState(() => {
+    return [];
+  });
 
   // useEffect(() => {
-  //   if (task.length > 0
-  //     && task.indexOf(task) === -1) {
-  //     console.log('useEffect');
-  //   }
+  //     console.log('useEffect ', task);
   // }, [task]);
 
   return (
@@ -29,7 +28,7 @@ function App() {
             </form>
             <div className="main_todo_allTasks_wrapper">
               <ul className="main_todo_allTasks">
-                <AllTasksHtml task={task}/>
+                <AllTasksHtml task={task} setTask={setTask}/>
               </ul>
             </div>
           </div>
