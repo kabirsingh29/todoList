@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import './App.css';
 import AllTasksHtml from './components/AllTasksHtml'
 import taskFormSubmit from './components/taskFormSubmit'
-
+import RemoveAll from './components/RemoveAll'
+import Header from './components/Header'
 
 function App() {
   const [task, setTask] = useState(() => {
@@ -16,8 +17,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Header/>
         <div className="main_todo_app_wrapper">
-          <div className="main_todo_app_heading">your daily list...</div>
+          <div className="main_todo_app_heading">
+            <span className="main_todo_app_headingtext">your daily list...</span>
+            <RemoveAll task={task} setTask={setTask}/>
+          </div>
           <div className="main_todo_app_inputWrapper">
             <label className="main_todo_app_label">
               Enter your next task
