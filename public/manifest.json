@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "ToDoLIsT",
+  "name": "Create your daily ToDoLIsT!",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/50/000000/external-list-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/50/000000/external-list-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/50/000000/external-list-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png",
       "type": "image/png",
       "sizes": "512x512"
     }
