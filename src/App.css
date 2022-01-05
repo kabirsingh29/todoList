@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: block;
+  text-align: left;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+div#root header.App-header .main_todo_app_heading {
+  font-size: 24px;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+
+div#root header.App-header .main_todo_app_inputWrapper {
+  padding-top: 20px;
+}
+
+div#root header.App-header label.main_todo_app_label {
+  font-size: 24px;
+}
+
+div#root header.App-header form.main_todo_task_form {
+  display: flex;
+  height: 40px;
+  margin-top: 20px;
+}
+
+div#root header.App-header input.main_todo_app_input {
+  width: 70%;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper li {
+  list-style: none;
+  padding: 15px 5px 15px 5px;
+  position: relative;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper ul.main_todo_allTasks {
+  padding-left: 0;
+  font-size: 20px;
+}
+
+
+div#root header.App-header .main_todo_allTasks_wrapper li span.allTasks_cross {
+  background: red;
+  border-radius: 100%;
+  padding: 1px 5px;
+  width: 11px;
+  position: absolute;
+  height: 20px;
+  right: 15px;
+  font-size: 0;
+  top: 15px;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper li span.allTasks_cross:before {
+  content: '+';
+  display: block;
+  position: absolute;
+  font-size: 21px;
+  top: -3px;
+  right: 4px;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper li:nth-child(odd) {
+  background-color: #4c4f56;
+}
