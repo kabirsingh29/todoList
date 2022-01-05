@@ -4,7 +4,9 @@ import crossFunctionality from '../components/crossFunctionality'
 function LiItemHtml(name, props) {
     return (
         <>
-            <span className="allTasks_name">{name}</span> <span className="allTasks_cross" onClick = {(event) => crossFunctionality(event, props.task, props.setTask)}>+</span>
+            <span className="allTasks_name">{name}</span>
+            <span className="alltasks_check"><input type="checkbox" name="alltasks_check"></input></span>
+            <span className="allTasks_cross" onClick = {(event) => crossFunctionality(event, props.task, props.setTask)}>+</span>
         </>
     )
 }

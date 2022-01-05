@@ -3,6 +3,23 @@
 }
 
 
+div#root header.App-header .main_todo_allTasks_wrapper li span.alltasks_check {
+  position: absolute;
+  right: 60px;
+  top: 12px;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper li span.allTasks_name {
+  width: 240px;
+  word-break: break-word;
+}
+
+div#root header.App-header .main_todo_allTasks_wrapper li span.alltasks_check input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -17,10 +34,40 @@
   color: white;
 }
 
+.header_main_wrapepr {
+  position: fixed;
+  width: 100%;
+  background: #cbed02;
+  left: 0;
+  top: 0;
+  color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.header_main_right_menu {
+  padding-right: 17px;
+}
+
+.header_main_right_menu img {
+  width: 30px;
+}
+
+
+div#root header.App-header .main_todo_app_heading span.removeAll_removeAll {
+  font-size: 14px;
+  text-decoration: underline;
+  color: red;
+}
+
 div#root header.App-header .main_todo_app_heading {
   font-size: 24px;
   text-transform: capitalize;
-  padding-top: 30px;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 div#root header.App-header .main_todo_app_inputWrapper {
@@ -38,13 +85,20 @@ div#root header.App-header form.main_todo_task_form {
 }
 
 div#root header.App-header input.main_todo_app_input {
-  width: 70%;
+  width: 65%;
+  background: #fff;
+}
+
+div#root header.App-header form.main_todo_task_form button.main_todo_app_submit {
+  font-size: 16px;
+  width: 35%;
 }
 
 div#root header.App-header .main_todo_allTasks_wrapper li {
   list-style: none;
-  padding: 15px 5px 15px 5px;
+  padding: 15px 5px 15px 10px;
   position: relative;
+  display: flex;
 }
 
 div#root header.App-header .main_todo_allTasks_wrapper ul.main_todo_allTasks {
