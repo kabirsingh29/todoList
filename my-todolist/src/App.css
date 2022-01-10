@@ -34,7 +34,7 @@ div#root header.App-header .main_todo_allTasks_wrapper li span.alltasks_check in
   color: white;
 }
 
-.header_main_wrapepr {
+.header_main_wrapper {
   position: fixed;
   width: 100%;
   background: #cbed02;
@@ -46,8 +46,16 @@ div#root header.App-header .main_todo_allTasks_wrapper li span.alltasks_check in
   padding: 5px;
 }
 
+.header_main_right_menu > span {
+  padding-right: 15px;
+}
+
 .header_main_right_menu {
-  padding-right: 17px;
+  display: flex;
+}
+
+.header_main_right_menu > span:not(:last-child) {
+  padding-right: 10px;
 }
 
 .header_main_right_menu img {
