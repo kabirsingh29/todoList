@@ -10,7 +10,7 @@ function Header() {
                 </div>
                 <div className="header_main_right_menu">
                         <span className="header_todoList">
-                            <Link to="/todoList">
+                            <Link to="/todolist">
                                 <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/50/000000/external-list-support-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
                             </Link>
                         </span>
