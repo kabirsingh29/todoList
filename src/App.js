@@ -23,10 +23,10 @@ function App() {
     <div className="w-100">
     <div className="App">
       <header className="App-header">
-        <Header/>
         <Router>
+        <Header/>
           <Routes>
-            <Route path="/todoList" element={<Mainpage RemoveAll={RemoveAll} AllTasksHtml={AllTasksHtml} taskFormSubmit={taskFormSubmit} task={task} setTask={setTask}/>}>
+            <Route path="/todolist" element={<Mainpage RemoveAll={RemoveAll} AllTasksHtml={AllTasksHtml} taskFormSubmit={taskFormSubmit} task={task} setTask={setTask}/>}>
             </Route>
             <Route path="/account" element={<Account/>}>
             </Route>
