@@ -26,7 +26,7 @@ function App() {
         <Router>
         <Header/>
           <Routes>
-            <Route path="/todolist" element={<Mainpage RemoveAll={RemoveAll} AllTasksHtml={AllTasksHtml} taskFormSubmit={taskFormSubmit} task={task} setTask={setTask}/>}>
+            <Route path="/todoList" element={<Mainpage RemoveAll={RemoveAll} AllTasksHtml={AllTasksHtml} taskFormSubmit={taskFormSubmit} task={task} setTask={setTask}/>}>
             </Route>
             <Route path="/account" element={<Account/>}>
             </Route>
