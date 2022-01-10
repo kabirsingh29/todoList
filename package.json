@@ -1,6 +1,6 @@
 {
-  "homepage": "http://kabirsingh29.github.io/todolist",
-  "name": "my-todolist",
+  "homepage": "http://kabirsingh29.github.io/todoList",
+  "name": "my-todoList",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
